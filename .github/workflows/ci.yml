@@ -13,5 +13,5 @@ jobs:
           node-version: '20.x'
       - run: yarn --frozen-lockfile
       - run: yarn lint
-      - run: yarn build --if-present
+      - run: yarn build
       - run: yarn test
